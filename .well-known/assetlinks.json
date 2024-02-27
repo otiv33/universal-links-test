@@ -1,5 +1,5 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target" : { "namespace": "android_app", "package_name": "io.mikrovent5.app",
-                 "sha256_cert_fingerprints": ["45:79:29:6A:48:D9:AB:18:FE:80:B1:F0:25:F5:DC:BA:83:AB:19:91:EF:EC:51:8C:1D:03:33:EB:56:19:04:E1"] }
+                 "sha256_cert_fingerprints": ["AE:12:64:90:40:3A:B5:37:25:79:61:2A:A9:54:CD:D7:3D:0F:56:75:77:5F:38:55:BB:31:E2:EE:17:91:0F:E6"] }
   }]
