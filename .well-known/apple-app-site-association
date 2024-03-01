@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "io.mikrovent5.app" ],
+             "components": [
+               
+               {
+                  "/": "/invite/*"
+               }
+             ]
+           }
+       ]
+   }
+}

@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <title>Invite page</title>
     <script>
-        if (window.location.pathname.indexOf("/invite") != -1) {
-            const urlParams = new URLSearchParams(window.location.search);
-            const id = urlParams.get('id');
-            if (navigator.userAgent.match(/Android/i)) {
-                var referrer = "utm_source%3Dinvite%26utm_medium%3D"+id+"%26utm_campaign%3Dinvite"
-                window.location = "https://play.google.com/store/apps/details?id=io.mikrovent5.app&referrer=" + referrer;
+        const fs = require('fs');
+        const filePath = './example.txt'; // Change this to the file you want to read
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error('Error reading file:', err);
+                return;
             }
-            if (
-                navigator.userAgent.match(/iPhone/i) ||
-                navigator.userAgent.match(/iPad/i) ||
-                navigator.userAgent.match(/iPod/i)
-            ) {
-                window.location = "https://apps.apple.com/us/app/mikrovent-app/id6468981749";
+
+            console.log('File contents:', data);
+        });
+        if (window.location.pathname.indexOf("/invite") != -1) {
+            const params = new URLSearchParams(window.location.pathname);
+            const id = params.get('id');
+            if (id != null && id != "") {
+                if (navigator.userAgent.match(/Android/i)) {
+                    var playStoreUrl = "https://play.google.com/store/apps/details?id=io.mikrovent5.app"
+                    var referrer = "&referrer=utm_source%3Dinvite%26utm_medium%3D"+id+"%26utm_campaign%3Dinvite"
+                    window.location = playStoreUrl + referrer;
+                }
+                if (
+                    navigator.userAgent.match(/iPhone/i) ||
+                    navigator.userAgent.match(/iPad/i) ||
+                    navigator.userAgent.match(/iPod/i)
+                ) {
+                    window.location = "https://apps.apple.com/us/app/mikrovent-app/id6468981749";
+                }
             }
         }
     </script>
