@@ -1,5 +1,5 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "io.mikrovent5.app",
+    "target" : { "namespace": "android_app", "package_name": "unullo.nomnio.appcontrol",
                  "sha256_cert_fingerprints": ["AE:12:64:90:40:3A:B5:37:25:79:61:2A:A9:54:CD:D7:3D:0F:56:75:77:5F:38:55:BB:31:E2:EE:17:91:0F:E6"] }
   }]
