@@ -2,7 +2,8 @@
 	{
 		"comments": {
 			"fingerprint1": "Debug - Vito",
-			"fingerprint2": "Debug - Gregor"
+			"fingerprint2": "Debug - Gregor",
+			"fingerprint3": "Production"
 		}
 	},
 	{
@@ -12,6 +13,7 @@
 			"package_name": "unullo.nomnio.appcontrol",
 			"sha256_cert_fingerprints": [
 				"AE:12:64:90:40:3A:B5:37:25:79:61:2A:A9:54:CD:D7:3D:0F:56:75:77:5F:38:55:BB:31:E2:EE:17:91:0F:E6",
+				" 89:D9:14:91:A0:D8:6A:1C:71:63:2A:AC:9B:98:6C:16:12:DA:7C:B5:EA:F5:3D:19:E1:07:00:8F:0A:96:8E:D0",
 				"A4:40:4C:70:B9:57:66:03:2C:B8:EF:BD:98:3F:75:60:F4:9D:20:C2:E3:8D:F1:6E:64:D2:AE:61:C1:A2:39:2F"
 			]
 		}
