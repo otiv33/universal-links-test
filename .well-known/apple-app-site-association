@@ -1,14 +1,16 @@
 {
-  "applinks": {
-      "details": [
-         {
-            "appIDs": [ "NUC6Y4DU7N.io.mikrovent5.app" ],
-            "components": [
-               {
-                  "/": "/invite/*"
-               }
-            ]
-         }
-      ]
-   }
+	"applinks": {
+		"details": [
+			{
+				"appIDs": [
+					"6477389731.com.etherma.smart.app"
+				],
+				"components": [
+					{
+						"/": "/invite/*"
+					}
+				]
+			}
+		]
+	}
 }
